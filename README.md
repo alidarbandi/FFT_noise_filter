@@ -3,6 +3,8 @@ Filter image noise through the frequency domain
 
 This is a macro for ImageJ and Fiji. The macro will use a data sepecific mask to filter high frequency or low frequency noise in FFT domain. Final image will be reconstrcuted using inverse FFT. This maco assumes that the noise in your data is from a systematic source (pseudo periodic noise) that is predictable in every image. Random unpredicatable noise cannot be filtered with this macro. See an example of this filtering in the image below.
 
+![before and after FFT notch filter](https://user-images.githubusercontent.com/36707458/157692826-01403f0f-7efb-44d8-be21-6bccea181c74.jpg)
+
 
 # Tutorial
 1. Download the file and place it in your imageJ folder or data folder.
@@ -19,4 +21,4 @@ This is a macro for ImageJ and Fiji. The macro will use a data sepecific mask to
 12. Edit the number of images in the for-loop counter
 13. Click run. 
 14. the program prompts you to choose the input and output folder. 
-15.  
+ 
